@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/cucumber.json", "pretty","html:target/cucumber-reports"},
         features = "features",
         tags = {"@wip"},
-        glue = "br.com.automacao/steps",
+        glue = "br/com/automacao/steps",
         snippets = SnippetType.CAMELCASE
 )
 public class RunTest {
