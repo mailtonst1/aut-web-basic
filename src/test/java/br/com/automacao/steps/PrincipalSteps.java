@@ -1,16 +1,16 @@
 package br.com.automacao.steps;
 
-import br.com.automacao.pageobjects.HomePage;
 import br.com.automacao.pageobjects.PrincipalPage;
-import cucumber.api.java.pt.Entao;
 import cucumber.api.java8.Pt;
+import org.junit.Assert;
+
 import static org.junit.Assert.assertEquals;
 
-public class PrincipalSteps extends BaseSteps implements Pt{
+public class PrincipalSteps implements Pt{
     public PrincipalSteps(){
 
         Entao("devo ver minha página principal", () -> {
-            assertEquals(PrincipalPage.validoNomeUsuarioLogado(),"Hi, Demo User");
+            Assert.assertEquals(PrincipalPage.validoNomeUsuarioLogado(),"Hi, Demo User");
         });
 
     }
