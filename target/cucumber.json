@@ -1,0 +1,191 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language:pt"
+      },
+      {
+        "line": 2,
+        "value": "# encoding:utf-8"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Eu como usuário desejo fazer login no sistema",
+        "description": "\"phptravels\" com login é senha validos.",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3317795300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que estou na pagina de login do sistema",
+            "match": {
+              "location": "HomeSteps.java:9"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 26881869300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:36"
+            }
+          },
+          {
+            "result": {
+              "duration": 3696852100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:36"
+            }
+          },
+          {
+            "result": {
+              "duration": 2915863200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:36"
+            }
+          },
+          {
+            "result": {
+              "duration": 2538999400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:36"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Logar informando email e senha validos",
+        "description": "",
+        "id": "login;logar-informando-email-e-senha-validos;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 22603500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:56"
+            }
+          },
+          {
+            "result": {
+              "duration": 13334700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:56"
+            }
+          },
+          {
+            "result": {
+              "duration": 11881700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:56"
+            }
+          },
+          {
+            "result": {
+              "duration": 12881500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LambdaGlueBase.java:56"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1174820200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que preencho um login é uma senha valido user@phptravels.com demouser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user@phptravels.com",
+                  "offset": 41
+                },
+                {
+                  "val": "demouser",
+                  "offset": 61
+                }
+              ],
+              "location": "LoginSteps.java:8"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 220114400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "confirmo para logar",
+            "match": {
+              "location": "LoginSteps.java:13"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3768670100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "devo ver minha página principal",
+            "match": {
+              "location": "PrincipalSteps.java:12"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@mailton"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 4,
+        "name": "@mailton"
+      }
+    ]
+  }
+]
