@@ -17,7 +17,7 @@ public class Browser {
 		if (driver == null) {
 			try {
 				driver = new ChromeDriver();
-				wait = new WebDriverWait(driver, 20);
+				wait = new WebDriverWait(driver, 40);
 				waitNot = new WebDriverWait(driver, 1);
 				driver.manage().window().maximize();
 				driver.manage().timeouts().pageLoadTimeout(80, TimeUnit.SECONDS);
