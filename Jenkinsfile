@@ -1,11 +1,14 @@
 pipeline{
-    agent any
-    stages{
-        stage('Execução testes funcional'){
+    agent{
+        docker{
+            image 'openjdk:8'
+        }
+    }
+    stages {
+        stage('Execução testes funcional') {
             steps{
-                sh 'mvn clean verify'
+            sh "mvn clean verify"
             }
-
         }
     }
 }
