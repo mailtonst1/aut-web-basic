@@ -1,9 +1,5 @@
 pipeline{
-    agent{
-        docker{
-            image 'openjdk:8'
-        }
-    }
+    agent any
     stages {
         stage('Execução testes funcional') {
             steps{
