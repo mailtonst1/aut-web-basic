@@ -4,8 +4,6 @@ import br.com.automacao.pageobjects.PrincipalPage;
 import cucumber.api.java8.Pt;
 import org.junit.Assert;
 
-import static org.junit.Assert.assertEquals;
-
 public class PrincipalSteps implements Pt{
     public PrincipalSteps(){
 
