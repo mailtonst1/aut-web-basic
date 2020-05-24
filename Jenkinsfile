@@ -14,7 +14,7 @@ pipeline{
                     try{
                         sh "mvn package clean verify"
                         currentBuild.result = 'SUUCESS' 
-                    }catch{ (Exception e){
+                    }catch (Exception e){
                         currentBuild.result = 'FAILURE'
                     }
                 }
